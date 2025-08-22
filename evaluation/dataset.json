@@ -1,0 +1,62 @@
+[
+  {
+    "id": "ER_build_1",
+    "game": "Elden Ring",
+    "category": "Build",
+    "question": "Best beginner build?",
+    "expected": "Prioritize Vigor and Strength; use a simple heavy weapon like a Greatsword; equip medium armor; upgrade Flask charges early; use Guard Counters.",
+    "level": 15,
+    "mode": "Normal",
+    "inventory": ["Broadsword", "Shield", "Leather Armor"]
+  },
+  {
+    "id": "MC_survival_1",
+    "game": "Minecraft",
+    "category": "Survival",
+    "question": "How to survive the first night?",
+    "expected": "Gather wood → craft basic tools → make a small shelter → place torches or sleep in a bed to skip night → cook food.",
+    "level": 1,
+    "mode": "Normal",
+    "inventory": ["Wood", "Wool", "Coal"]
+  },
+  {
+    "id": "VAL_agent_1",
+    "game": "Valorant",
+    "category": "Strategy",
+    "question": "Best agent for beginners?",
+    "expected": "Sage or Brimstone are forgiving; play support, learn smokes/walls, and focus on trading and positioning rather than flashy duels.",
+    "level": 10,
+    "mode": "Unrated",
+    "inventory": []
+  },
+  {
+    "id": "W3_quest_1",
+    "game": "The Witcher 3",
+    "category": "Quest",
+    "question": "Any tips for 'Family Matters'?",
+    "expected": "Follow leads patiently; talk to Pellar and the Bloody Baron; prep for swamp fights; use Axii in dialogs; choices affect outcomes.",
+    "level": 8,
+    "mode": "Story",
+    "inventory": ["Swallow", "Thunderbolt"]
+  },
+  {
+    "id": "VALHEIM_crafting_1",
+    "game": "Valheim",
+    "category": "Crafting",
+    "question": "Fast path to Bronze gear?",
+    "expected": "Beat Eikthyr → pickaxe → mine copper and tin → smelt bronze → craft bronze axe/armor; build carts near deposits.",
+    "level": 12,
+    "mode": "Solo",
+    "inventory": ["Antler Pickaxe"]
+  },
+  {
+    "id": "GEN_route_1",
+    "game": "Genshin Impact",
+    "category": "Route",
+    "question": "Efficient daily resin use for AR30-40?",
+    "expected": "Prioritize character ascension mats and weapon domains; do 4 commissions; spend resin on needed domains and weekly bosses; avoid over-leveling artifacts.",
+    "level": 35,
+    "mode": "Adventure",
+    "inventory": ["AR 35"]
+  }
+]

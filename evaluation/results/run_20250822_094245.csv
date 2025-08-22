@@ -1,0 +1,48 @@
+id,strategy,game,category,question,ai_answer,expected,relevance,accuracy,completeness,clarity,total_score,feedback
+ER_build_1,zero_shot,Elden Ring,Build,Best beginner build?,"**Strength/Faith (Strength build with incantations):**
+
+* **Leveling:** Prioritize Vigor (health), Endurance (stamina), Strength, then Faith.
+* **Weapons:** Starting weapon + colossal weapon (e.g., Greatsword).  Upgrade both.
+* **Incantations:**  Focus on buffs (Golden Vow) and healing (Incantations are less important early).
+* **Playstyle:**  Learn to stagger enemies with heavy attacks, use incantations for support.
+
+This build is forgiving of mistakes, offers good damage and survivability.  Focus on upgrading your weapon first.",Prioritize Vigor and Strength; use a simple heavy weapon like a Greatsword; equip medium armor; upgrade Flask charges early; use Guard Counters.,5,5,4,5,19,"The AI response is excellent and provides a well-structured build suggestion.  It successfully addresses the request for a beginner-friendly build.  To reach full completeness, it could mention armor type (medium) and flask charges, as the reference answer does.  The inclusion of Faith is a reasonable addition, offering a slightly more nuanced suggestion for beginners."
+ER_build_1,one_shot,Elden Ring,Build,Best beginner build?,,Prioritize Vigor and Strength; use a simple heavy weapon like a Greatsword; equip medium armor; upgrade Flask charges early; use Guard Counters.,0,0,0,0,0,Failed to parse judge output.
+ER_build_1,multi_shot,Elden Ring,Build,Best beginner build?,"- **Vigor:** Prioritize Vigor to increase your health pool.  Early game hits can be devastating, and having enough health to survive mistakes is crucial.
+
+- **Endurance:**  A decent amount of Endurance is helpful for stamina management, especially if using heavier weapons.
+
+- **Strength or Dexterity:** Choose one based on your preferred weapon type.  Strength scales with heavier weapons like Greatswords and Hammers, while Dexterity scales with faster, lighter weapons like Katanas and Rapiers.
+
+- **Starting Weapon:** Choose a weapon that aligns with your chosen Strength/Dexterity focus.  A Greatsword (Strength) or Uchigatana (Dexterity) are good starting points.
+
+- **Leveling Strategy:** Focus on Vigor and your chosen damage stat (Strength or Dexterity) initially.  Once you have a good base, you can start investing in other stats as needed (like Endurance).
+
+- **Early Game Focus:** Explore the starting area thoroughly.  Learn enemy attack patterns, and don't be afraid to run away and heal.  Upgrade your weapons at the nearest smithing stone locations.  Use your flasks liberally.",Prioritize Vigor and Strength; use a simple heavy weapon like a Greatsword; equip medium armor; upgrade Flask charges early; use Guard Counters.,0,0,0,0,0,Failed to parse judge output.
+ER_build_1,dynamic,Elden Ring,Build,Best beginner build?,,Prioritize Vigor and Strength; use a simple heavy weapon like a Greatsword; equip medium armor; upgrade Flask charges early; use Guard Counters.,0,0,0,0,0,Failed to parse judge output.
+ER_build_1,chain_of_thought,Elden Ring,Build,Best beginner build?,,Prioritize Vigor and Strength; use a simple heavy weapon like a Greatsword; equip medium armor; upgrade Flask charges early; use Guard Counters.,0,0,0,0,0,Failed to parse judge output.
+MC_survival_1,zero_shot,Minecraft,Survival,How to survive the first night?,,Gather wood → craft basic tools → make a small shelter → place torches or sleep in a bed to skip night → cook food.,0,0,0,0,0,Failed to parse judge output.
+MC_survival_1,one_shot,Minecraft,Survival,How to survive the first night?,,Gather wood → craft basic tools → make a small shelter → place torches or sleep in a bed to skip night → cook food.,0,0,0,0,0,Failed to parse judge output.
+MC_survival_1,multi_shot,Minecraft,Survival,How to survive the first night?,,Gather wood → craft basic tools → make a small shelter → place torches or sleep in a bed to skip night → cook food.,0,0,0,0,0,Failed to parse judge output.
+MC_survival_1,dynamic,Minecraft,Survival,How to survive the first night?,,Gather wood → craft basic tools → make a small shelter → place torches or sleep in a bed to skip night → cook food.,0,0,0,0,0,Failed to parse judge output.
+MC_survival_1,chain_of_thought,Minecraft,Survival,How to survive the first night?,,Gather wood → craft basic tools → make a small shelter → place torches or sleep in a bed to skip night → cook food.,0,0,0,0,0,Failed to parse judge output.
+VAL_agent_1,zero_shot,Valorant,Strategy,Best agent for beginners?,,"Sage or Brimstone are forgiving; play support, learn smokes/walls, and focus on trading and positioning rather than flashy duels.",0,0,0,0,0,Failed to parse judge output.
+VAL_agent_1,one_shot,Valorant,Strategy,Best agent for beginners?,,"Sage or Brimstone are forgiving; play support, learn smokes/walls, and focus on trading and positioning rather than flashy duels.",0,0,0,0,0,Failed to parse judge output.
+VAL_agent_1,multi_shot,Valorant,Strategy,Best agent for beginners?,,"Sage or Brimstone are forgiving; play support, learn smokes/walls, and focus on trading and positioning rather than flashy duels.",0,0,0,0,0,Failed to parse judge output.
+VAL_agent_1,dynamic,Valorant,Strategy,Best agent for beginners?,,"Sage or Brimstone are forgiving; play support, learn smokes/walls, and focus on trading and positioning rather than flashy duels.",0,0,0,0,0,Failed to parse judge output.
+VAL_agent_1,chain_of_thought,Valorant,Strategy,Best agent for beginners?,,"Sage or Brimstone are forgiving; play support, learn smokes/walls, and focus on trading and positioning rather than flashy duels.",0,0,0,0,0,Failed to parse judge output.
+W3_quest_1,zero_shot,The Witcher 3,Quest,Any tips for 'Family Matters'?,,Follow leads patiently; talk to Pellar and the Bloody Baron; prep for swamp fights; use Axii in dialogs; choices affect outcomes.,0,0,0,0,0,Failed to parse judge output.
+W3_quest_1,one_shot,The Witcher 3,Quest,Any tips for 'Family Matters'?,,Follow leads patiently; talk to Pellar and the Bloody Baron; prep for swamp fights; use Axii in dialogs; choices affect outcomes.,0,0,0,0,0,Failed to parse judge output.
+W3_quest_1,multi_shot,The Witcher 3,Quest,Any tips for 'Family Matters'?,,Follow leads patiently; talk to Pellar and the Bloody Baron; prep for swamp fights; use Axii in dialogs; choices affect outcomes.,0,0,0,0,0,Failed to parse judge output.
+W3_quest_1,dynamic,The Witcher 3,Quest,Any tips for 'Family Matters'?,,Follow leads patiently; talk to Pellar and the Bloody Baron; prep for swamp fights; use Axii in dialogs; choices affect outcomes.,0,0,0,0,0,Failed to parse judge output.
+W3_quest_1,chain_of_thought,The Witcher 3,Quest,Any tips for 'Family Matters'?,,Follow leads patiently; talk to Pellar and the Bloody Baron; prep for swamp fights; use Axii in dialogs; choices affect outcomes.,0,0,0,0,0,Failed to parse judge output.
+VALHEIM_crafting_1,zero_shot,Valheim,Crafting,Fast path to Bronze gear?,,Beat Eikthyr → pickaxe → mine copper and tin → smelt bronze → craft bronze axe/armor; build carts near deposits.,0,0,0,0,0,Failed to parse judge output.
+VALHEIM_crafting_1,one_shot,Valheim,Crafting,Fast path to Bronze gear?,,Beat Eikthyr → pickaxe → mine copper and tin → smelt bronze → craft bronze axe/armor; build carts near deposits.,0,0,0,0,0,Failed to parse judge output.
+VALHEIM_crafting_1,multi_shot,Valheim,Crafting,Fast path to Bronze gear?,,Beat Eikthyr → pickaxe → mine copper and tin → smelt bronze → craft bronze axe/armor; build carts near deposits.,0,0,0,0,0,Failed to parse judge output.
+VALHEIM_crafting_1,dynamic,Valheim,Crafting,Fast path to Bronze gear?,,Beat Eikthyr → pickaxe → mine copper and tin → smelt bronze → craft bronze axe/armor; build carts near deposits.,0,0,0,0,0,Failed to parse judge output.
+VALHEIM_crafting_1,chain_of_thought,Valheim,Crafting,Fast path to Bronze gear?,,Beat Eikthyr → pickaxe → mine copper and tin → smelt bronze → craft bronze axe/armor; build carts near deposits.,0,0,0,0,0,Failed to parse judge output.
+GEN_route_1,zero_shot,Genshin Impact,Route,Efficient daily resin use for AR30-40?,,Prioritize character ascension mats and weapon domains; do 4 commissions; spend resin on needed domains and weekly bosses; avoid over-leveling artifacts.,0,0,0,0,0,Failed to parse judge output.
+GEN_route_1,one_shot,Genshin Impact,Route,Efficient daily resin use for AR30-40?,,Prioritize character ascension mats and weapon domains; do 4 commissions; spend resin on needed domains and weekly bosses; avoid over-leveling artifacts.,0,0,0,0,0,Failed to parse judge output.
+GEN_route_1,multi_shot,Genshin Impact,Route,Efficient daily resin use for AR30-40?,,Prioritize character ascension mats and weapon domains; do 4 commissions; spend resin on needed domains and weekly bosses; avoid over-leveling artifacts.,0,0,0,0,0,Failed to parse judge output.
+GEN_route_1,dynamic,Genshin Impact,Route,Efficient daily resin use for AR30-40?,,Prioritize character ascension mats and weapon domains; do 4 commissions; spend resin on needed domains and weekly bosses; avoid over-leveling artifacts.,0,0,0,0,0,Failed to parse judge output.
+GEN_route_1,chain_of_thought,Genshin Impact,Route,Efficient daily resin use for AR30-40?,,Prioritize character ascension mats and weapon domains; do 4 commissions; spend resin on needed domains and weekly bosses; avoid over-leveling artifacts.,0,0,0,0,0,Failed to parse judge output.
