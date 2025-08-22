@@ -5,7 +5,7 @@ from dotenv import load_dotenv
 load_dotenv()
 
 genai.configure(api_key=os.getenv("GEMINI_API_KEY"))
-model = genai.GenerativeModel("gemini-2.0-flash")
+model = genai.GenerativeModel("gemini-1.5-flash")
 
 def one_shot_prompt(game, category, question):
     return f"""
@@ -37,7 +37,8 @@ response = model.generate_content(
     prompt,
     generation_config={
         "temperature": 0.8,
-        "top_k": 40
+        "top_k": 100,
+        "stop_sequences": ["hard"]
     }
 )
 
