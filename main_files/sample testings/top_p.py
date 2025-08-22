@@ -36,6 +36,11 @@ question = input("Enter your question: ")
 
 prompt = one_shot_prompt(game, category, question)
 
-response = model.generate_content(prompt)
+response = model.generate_content(prompt, generation_config={
+    "temperature": "1.0",
+    "top_p": "0.9",
+    "top_k": "100",
+    "stop_sequences": ["###"]
+})
 
-print(response.text)
+print(response.text)    
