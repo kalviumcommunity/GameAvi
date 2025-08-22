@@ -37,7 +37,7 @@ response = model.generate_content(
     prompt,
     generation_config={
         "temperature": 0.8,
-        "top_p": 0.9
+        "top_k": 40
     }
 )
 
