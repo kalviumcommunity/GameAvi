@@ -8,23 +8,26 @@ genai.configure(api_key=os.getenv("GEMINI_API_KEY"))
 model = genai.GenerativeModel("gemini-1.5-flash")
 
 def one_shot_prompt(game, category, question):
-    return f"""
+  return f"""
     You are GameAvi, an intelligent AI gaming assistant.
 
-    Example:
-    Game: Elden Ring
-    Category: Build
-    Question: Best beginner build?
-    Answer:
-    - Focus on Vigor and Strength
-    - Use Greatsword early on
-    - Upgrade Flask ASAP
+    Example (structured JSON output):
+    {{
+        "game": "Elden Ring",
+        "category": "Build",
+        "question": "Best beginner build?",
+        "answer": [
+            "Focus on Vigor and Strength",
+            "Use Greatsword early on",
+            "Upgrade Flask ASAP"
+        ]
+    }}
 
     Now your turn:
-    Game: {game}
-    Category: {category}
-    Question: {question}
-    Answer:
+    game: {game}
+    category: {category}
+    question: {question}
+    Provide the response in the SAME JSON format.
     """
 
 game = input("Enter game name (e.g., Elden Ring, Minecraft): ")
@@ -33,13 +36,6 @@ question = input("Enter your question: ")
 
 prompt = one_shot_prompt(game, category, question)
 
-response = model.generate_content(
-    prompt,
-    generation_config={
-        "temperature": 0.8,
-        "top_k": 100,
-        "stop_sequences": ["hard"]
-    }
-)
+response = model.generate_content(prompt)
 
 print(response.text)
