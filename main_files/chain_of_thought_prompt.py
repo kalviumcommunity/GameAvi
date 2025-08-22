@@ -24,6 +24,7 @@ def chain_of_thought(game, category, question):
 
     After thinking step-by-step, provide the final answer in a clear and structured way.
     """
+    
 game = input("Enter game name: ")
 category = input("Choose category (Strategy / Build / Quest): ")
 question = input("Enter your question: ")

@@ -1,0 +1,6 @@
+strategy,count,mean,std
+zero_shot,6,3.1666666666666665,7.756717518813398
+chain_of_thought,6,0.0,0.0
+dynamic,6,0.0,0.0
+multi_shot,6,0.0,0.0
+one_shot,6,0.0,0.0
