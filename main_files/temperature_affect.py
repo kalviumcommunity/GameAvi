@@ -5,7 +5,7 @@ from dotenv import load_dotenv
 load_dotenv()
 genai.configure(api_key=os.getenv("GEMINI_API_KEY"))
 
-model = genai.GenerativeModel("gemini-2.0-flash")
+model = genai.GenerativeModel("gemini-1.5-flash")
 
 def multi_shot_prompt(game, category, question):
     return f"""
@@ -50,6 +50,6 @@ category = input("Choose category (Strategy / Build / Quest): ")
 question = input("Enter your question: ")
 
 prompt = multi_shot_prompt(game, category, question)
-response = model.generate_content(prompt, generation_config={"temperature": 0.0}) 
+response = model.generate_content(prompt, generation_config={"temperature": 1.0}) 
 
 print(response.text)
